@@ -1,0 +1,314 @@
+.navbar-brand {
+    font-weight: 800;
+}
+.navbar-default {
+    border: transparent;
+}
+
+#home-body {
+    background-image: url('pictures/back1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blue {
+    color: blue;
+}
+.white {
+    color: white;
+}
+
+#bigger {
+    font-size: 70px;
+    font-weight: 700;
+    margin-top:200px;
+    margin-left: 40px;
+    color: white;
+}
+
+
+#big {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 40px;
+    color:rgba(2, 2, 246, 0.602);
+    margin-top: 394px;
+}
+
+.und {
+    text-decoration: underline;
+}
+
+.webbtn{
+    height: 30px;
+    background-color: rgba(0, 0, 255, 0.376);
+    color: rgba(255, 255, 255, 0.301);
+    border: transparent;
+    width: 160px;
+    border-radius: 10px;
+}
+.getSt {
+    margin-left: 160px;
+    margin-top:490px;
+}
+
+.webbtn:hover {
+    background-color: rgba(0, 0, 255, 0.726);
+    color: white;
+}
+
+#slide {
+    position: absolute;
+    left: -1000px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.5s;
+}
+#slide2 {
+    position: absolute;
+    left: -1000px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1s;
+}
+
+#slide3 {
+    position: absolute;
+    left: -1000px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1.5s;
+}
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+/* SignUp page */
+
+#signup-body {
+    background-image: url('../style/pictures/loginPic.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.SignUpForm {
+    background-color: white;
+    border-radius: 10px;
+    width: 460px;
+    margin-top: 61px;
+    margin-left: 485px;
+    margin:auto;
+
+    position: relative;
+    left: -1000px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.5s;  
+}
+
+#headerSignUp {
+    font-weight: 400px;
+    font-size: 40px;
+    text-align:center;
+}
+
+.input-form{
+    border-radius: 4px;
+    width: 183px;
+    
+}
+#select-form{
+    margin-left:15px;
+    color:rgb(4, 0, 255);
+}
+#date-label-form {
+    margin-left: 47px;
+}
+
+.form-control:focus {
+    border-color: #0703ffb2;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(255, 100, 255, 0.5);
+}   
+#address-form {
+    margin-left: 10px;
+    width:324px;
+}
+
+#email-form {
+    margin-left: 10px;
+    width: 250px;
+}
+
+#confemail-form {
+    margin-left: 10px;
+    width: 250px;
+}
+
+#password-form {
+    width: 250px;
+}
+#confpassword-form {
+    width: 250px;
+}
+#submit-form {
+    margin-left: 134px;
+}
+
+#headerSignUp {
+    color:rgba(0, 0, 255, 0.513);
+    font-weight: 700;
+}
+
+/* Login */
+#login-body {
+    background-image: url('../style/pictures/loginPic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-form {
+    margin-left: 548px;
+    background-color: rgb(253, 253, 253);
+    width:350px;
+    border-radius: 10px;
+    margin-top: -40px;
+    height: 355px;
+
+    
+        position: absolute;
+        left: -1000px;
+        -webkit-animation: slide 0.5s forwards;
+        -webkit-animation-delay: 0.5s;
+        animation: slide 0.5s forwards;
+        animation-delay: 0.5s;  
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+
+#username-login {
+    width:250px;
+    height:35px;
+    margin-left: 30px;
+}
+
+#password-login {
+    width:250px;
+    height:35px;
+    margin-left: 30px;
+}
+
+#username-login-label {
+    margin-left: 30px;
+}
+
+#password-login-label {
+    margin-left: 30px;
+}
+
+#login-form {
+    margin-top: 40px;
+}
+
+#login-header {
+    font-weight:700;
+    font-size: 50px;
+    color:rgba(0, 0, 255, 0.513);
+    margin-left: 82px;
+    margin-bottom: -37px;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    position: absolute
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 10px; 
+    color: rgb(0, 47, 255); 
+    min-width: 50px; 
+    text-align: center; 
+    margin-top: -0.6px;
+    height: 36.5px;
+} 
+  
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+    height:35px;
+    border-radius: 5px;
+    border: 0px;
+} 
+  
+#wrgBtn {
+    background-color: rgba(255, 0, 0, 0.726);
+    border: 0px;
+    border-radius: 15px;
+}
+
+#wrongPass {
+    margin-bottom: 30px;
+    /* background-color: rgba(255, 0, 0, 0.39); */
+    width: 278px;
+    height:34px;
+    border-radius:5px;
+    padding:5px;
+}
+
+/* Reg welcome */
+
+#welcome {
+    background-color: rgba(6, 255, 6, 0.527);
+    border-radius: 15px;
+    width:400px;
+    color: green;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 247px;
+}
+
+#aP {
+    font-size: 16px;
+}
+
+
+/* colors */
+
+/* colors match together */
+#3498db - pet river
+#27ae60 - nephritis
+#d35400 - pumpkin
+#f1c40f - sunflower
+#8e44ad - wisteria
+#f39c12 - orange

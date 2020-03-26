@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body id="signup-body">
+        <nav class="navbar navbar-default">
+                <div class="container">
+                <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><span class="blue">Health</span> &nbsp; <span class="white">Database</span></a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="../home/index.html"><b class="color-home">Home</b></a></li>
+          <li><a href="#"><b class="AboutUs">About Us</b></a></li>
+          <li><a href="#"><b class="donate">Donate</b></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html"><b class="signUp">Sign Up</b></i></a></li>
+          <li><a href="../login/index.html"><b class="login">Login</b></i> </a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </div>
+  </nav>
+  <center><div id="complete"><p id="firstP"><a href="../login/index.html" id="firstA"></a></p></div></center>
+  <center>
+  <div class="container SignUpForm">
+    <br>
+    <p id="headerSignUp">Sign Up</p>
+    <br>
+    <br>
+    <form>
+        <label for="text">Name:</label>
+        <input id="firstname-form" class="input-form" type="text" required placeholder="First Name*" maxlength="17">
+        <input id="lastname-form" class="input-form" type="text" required placeholder="Last Name*" maxlength="17">
+        <br>
+        <br>
+        <label for="sex">Sex:</label>
+        <select id="select-form" name="sex" id="sex-form" required>
+            <option id="male-form">Male</option>
+            <option id="female-form">Female</option>
+        </select>
+        <label id="date-label-form" for="date">Birth-Date:</label>
+        <input id="date-form" class="input-form" type="date" required >
+        <br>
+        <br>
+        <label for="text">Address:</label>
+        <input id="address-form" class="input-form" type="text" maxlength="40" placeholder="No 23 godwin streetabia state*" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input id="email-form" type="email" class="input-form" placeholder="johnsmith@email.com*" required>
+        <br>
+        <br>
+        <label for="email">Confirm Email:</label>
+        <input id="confemail-form" type="email" class="input-form" placeholder="retype your email*" required>
+        <br>
+        <br>
+        <label for="text">Username:</label>
+        <input type="text" id="username-form" class="input-form" required maxlength="15" placeholder="johnsmith*" required>
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password-form" class="input-form" required maxlength="14" placeholder="type a password*" required>
+        <br>
+        <br>
+        <label for="password">Confirm Password:</label>
+        <input type="password" id="confpassword-form" class="input-form" required maxlength="14" placeholder="retype your password*" required>
+        <br>
+        <br>
+        <input type="image" src="" alt="">
+        <br>
+        <br>
+        <button class="webbtn" id="submit-form">Sign Up</button>
+        <br>
+        <br>
+    </form>
+  </div>
+</center>
+    <script src="script.js"></script>
+</body>
+</html>
